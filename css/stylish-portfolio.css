@@ -40,6 +40,10 @@ h6 {
   font-weight: 700;
 }
 
+h3 {
+text-align: center;
+}
+
 h1 {
   font-size: 72px;
   background: -webkit-linear-gradient(#E0D61B, #EC1F4D);
@@ -236,7 +240,6 @@ h1 {
   display: block;
   position: relative;
   overflow: hidden;
-  max-width: 530px;
   margin: auto auto 1rem;
 }
 
@@ -271,35 +274,12 @@ h1 {
     max-width: none;
     margin: 0;
   }
-  .portfolio-item .caption {
-    transition: background-color 0.7s, -webkit-clip-path 0.25s ease-out;
-    transition: clip-path 0.25s ease-out, background-color 0.7s;
-    transition: clip-path 0.25s ease-out, background-color 0.7s, -webkit-clip-path 0.25s ease-out;
-    -webkit-clip-path: inset(0px);
-    clip-path: inset(0px);
-  }
-  .portfolio-item .caption .caption-content {
-    transition: opacity 0.25s;
-    margin-left: 5rem;
-    margin-right: 5rem;
-    margin-bottom: 5rem;
-  }
-  .portfolio-item img {
-    transition: -webkit-clip-path 0.25s ease-out;
-    transition: clip-path 0.25s ease-out;
-    transition: clip-path 0.25s ease-out, -webkit-clip-path 0.25s ease-out;
-    -webkit-clip-path: inset(-1px);
-    clip-path: inset(-1px);
-  }
-  .portfolio-item:hover img {
-    -webkit-clip-path: inset(2rem);
-    clip-path: inset(2rem);
-  }
-  .portfolio-item:hover .caption {
-    background-color: rgba(29, 128, 159, 0.9);
-    -webkit-clip-path: inset(2rem);
-    clip-path: inset(2rem);
-  }
+
+.carousel-item{
+    height: 600px;
+} 
+.carousel-item img{
+    height: 600px;
 }
 
 .map iframe {
@@ -309,8 +289,8 @@ h1 {
 }
 
 footer.footer {
-  padding-top: 5rem;
-  padding-bottom: 5rem;
+  padding-top: 15rem;
+  padding-bottom: 2rem;
 }
 
 footer.footer .social-link {
