@@ -16,11 +16,15 @@ html {
 
 .yeh-font {
   font-family: "Yeh";
-  font-size: 100px;
   background: -webkit-linear-gradient(#e0d61b, #ec1f4d);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
+
+h1 {
+  font-size: 100px;
+}
+
 body {
   font-family: "NothingDo";
 }
