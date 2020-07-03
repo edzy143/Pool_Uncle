@@ -16,10 +16,33 @@ body {
 .btn-xl {
   padding: 1.25rem 2.5rem;
 }
+.carousel-item{
+  height: 400px;
+} 
+.carousel-item img{
+  height: 400px;
+}
+
+
+.carousel-control-next{
+      right: 20%;
+}
+
+.carousel-control-prev{
+  left: 20%;
+}
 
 .content-section {
   padding-top: 7.5rem;
   padding-bottom: 7.5rem;
+  text-align: center;
+  
+}
+
+.carousel-example-1z {
+  padding-top: 1em;
+  padding-bottom: 2rem;
+  text-align: center;
 }
 
 .content-section-heading h2 {
@@ -130,11 +153,7 @@ text-align:center;
 display: inline-block;
 }
 
-#carousel-example-1z {
 
-width: 50%;
-align: center;
-}
 
 /* Side Menu */
 #sidebar-wrapper {
@@ -260,21 +279,6 @@ footer.footer {
   padding-bottom: 5rem;
 }
 
-footer.footer .social-link {
-  display: block;
-  height: 4rem;
-  width: 4rem;
-  line-height: 4.3rem;
-  font-size: 1.5rem;
-  background-color: #1D809F;
-  transition: background-color 0.15s ease-in-out;
-  box-shadow: 0 3px 3px 0 rgba(0, 0, 0, 0.1);
-}
-
-footer.footer .social-link:hover {
-  background-color: #155d74;
-  text-decoration: none;
-}
 
 a {
   color: #1D809F;
