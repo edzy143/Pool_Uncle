@@ -21,9 +21,6 @@ html {
   -webkit-text-fill-color: transparent;
 }
 
-h1 {
-  font-size: 100px;
-}
 
 body {
   font-family: "NothingDo";
@@ -152,7 +149,7 @@ h6 {
     height: 100vh;
   }
   .masthead h1 {
-    font-size: 5.5rem;
+    font-size: 10rem;
   }
 }
 
