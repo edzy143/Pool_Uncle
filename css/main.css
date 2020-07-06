@@ -277,6 +277,14 @@ li {
   margin: auto auto 1rem;
 }
 
+.videos {
+  display: block;
+  position: relative;
+  overflow: hidden;
+  max-width: 530px;
+  margin: auto auto 1rem;
+}
+
 .map iframe {
   height: 100%;
   width: 100%;
