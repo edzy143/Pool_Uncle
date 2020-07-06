@@ -1,0 +1,57 @@
+Replacing current pictures:
+
+1) Resize image to 1024x768 using an online tool such as:
+https://resizeimage.net/
+2) Copy images to 'img' folder and rename to portfolio-1,2 and 3 (same name as other pictures currently).
+
+Adding additional pictures:
+
+1) Resize image to 1024x768 using an online tool such as:
+https://resizeimage.net/
+2) Copy images to 'img' folder and rename to portfolio-4,5,etc.
+3) Open index.html using notepad
+4) Scroll down to the section called "<!--Third slide-->
+5) Paste the following code below for each additional picture:
+                <!--Third slide-->
+                <div class="carousel-item">
+                  <img class="d-block w-100" src="img/portfolio-3.jpg" alt="Third slide">
+                </div>
+                <!--/Third slide-->
+
+EXAMPLE:
+
+                <!--First slide-->
+                <div class="carousel-item active">
+                  <img class="d-block w-100" src="img/portfolio-1.jpg" alt="First slide">
+                </div>
+                <!--/First slide-->
+                <!--Second slide-->
+                <div class="carousel-item">
+                  <img class="d-block w-100" src="img/portfolio-2.jpg" alt="Second slide">
+                </div>
+                <!--/Second slide-->
+                <!--Third slide-->
+                <div class="carousel-item">
+                  <img class="d-block w-100" src="img/portfolio-3.jpg" alt="Third slide">
+                </div>
+                <!--/Third slide-->
+                <!--Fourth slide-->
+                <div class="carousel-item">
+                  <img class="d-block w-100" src="img/portfolio-4.jpg" alt="Fourth slide">
+                </div>
+                <!--/Fourth slide-->
+                <!--Fith slide-->
+                <div class="carousel-item">
+                  <img class="d-block w-100" src="img/portfolio-5.jpg" alt="Fifth slide">
+                </div>
+                <!--/Fith slide-->
+
+Replacing current videos:
+
+1) Copy 2 videos to 'vid' folder and rename to same name as current videos (vid-1,vid-2).
+2) Delete old videos or rename them to something else
+
+Adding additional videos:
+
+1) Not possible. Would require formatting and layout changes.
+
