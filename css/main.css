@@ -171,7 +171,7 @@ li {
   height: 100%;
   transition: all 0.4s ease 0s;
   transform: translateX(250px);
-  background: #1d809f;
+  background: #305c69;
   border-left: 1px solid rgba(255, 255, 255, 0.1);
 }
 
@@ -307,8 +307,8 @@ a:active {
 }
 
 .btn-primary {
-  background-color: #1d809f !important;
-  border-color: #1d809f !important;
+  background-color: #305c69 !important;
+  border-color: #79bed3 !important;
   color: #fff !important;
 }
 
@@ -320,8 +320,8 @@ a:active {
 }
 
 .btn-secondary {
-  background-color: #ecb807 !important;
-  border-color: #ecb807 !important;
+  background-color: #e4af00 !important;
+  border-color: #f3db8d !important;
   color: #fff !important;
 }
 
